@@ -35,7 +35,6 @@ public class Home extends javax.swing.JFrame {
         try {
             ResultSet result = conn.query("Select * from systems group by customer desc");
             while (result.next()) {
-                int id = result.getInt("id");
                 String sid = result.getString("sid");
                 String customer = result.getString("customer");
                 customercombo.addItem(customer);
