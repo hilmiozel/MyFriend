@@ -13,6 +13,7 @@ import java.awt.event.ActionListener;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.sql.Date;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.logging.Level;
@@ -32,6 +33,7 @@ public class Home extends javax.swing.JFrame {
      */
     public Home(User user) {
         initComponents();
+        this.setTitle("MyFriend - "+user.getName()+" " +user.getSurname());
 
         try {
             ResultSet result = conn.query("Select * from systems group by customer desc");

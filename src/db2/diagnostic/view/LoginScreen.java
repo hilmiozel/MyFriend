@@ -42,6 +42,8 @@ public class LoginScreen extends javax.swing.JFrame {
         password = new javax.swing.JTextField();
         jButton1 = new javax.swing.JButton();
         jButton2 = new javax.swing.JButton();
+        jLabel3 = new javax.swing.JLabel();
+        jLabel4 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("You get the chance to know us.");
@@ -65,6 +67,10 @@ public class LoginScreen extends javax.swing.JFrame {
             }
         });
 
+        jLabel3.setText("The freedom to run the program for any purpose.");
+
+        jLabel4.setText("Ver.1 2016");
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -83,6 +89,12 @@ public class LoginScreen extends javax.swing.JFrame {
                     .addComponent(email, javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(password, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, 225, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap(122, Short.MAX_VALUE))
+            .addGroup(layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jLabel3)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jLabel4)
+                .addContainerGap())
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -99,7 +111,11 @@ public class LoginScreen extends javax.swing.JFrame {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jButton1)
                     .addComponent(jButton2))
-                .addContainerGap(56, Short.MAX_VALUE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 31, Short.MAX_VALUE)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel3)
+                    .addComponent(jLabel4))
+                .addContainerGap())
         );
 
         pack();
@@ -112,7 +128,6 @@ public class LoginScreen extends javax.swing.JFrame {
             User user = null;
             Boolean dolumu=false;
             ResultSet result = conn.query("select * from users where email = '" + email.getText() + "' and password= '" + password.getText() + "'");
-            System.out.println("select * from users where email = '" + email.getText() + "' and password= '" + password.getText() + "'");
             while (result.next()) {
                 String email = result.getString("email");
                 String password = result.getString("password");
@@ -124,6 +139,7 @@ public class LoginScreen extends javax.swing.JFrame {
             if (dolumu){
                 Home hm = new Home(user);
                 hm.setVisible(true);
+                this.setVisible(false);
             }
             else{
                 JOptionPane.showMessageDialog(this, "“A winner is just a loser who tried one more time.”\n George Moore","Logon Failed!",0);
@@ -180,6 +196,8 @@ public class LoginScreen extends javax.swing.JFrame {
     private javax.swing.JButton jButton2;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
     private javax.swing.JTextField password;
     // End of variables declaration//GEN-END:variables
 }
