@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Menu class="javax.swing.JMenuBar" name="jMenuBar1">
+      <SubComponents>
+        <Menu class="javax.swing.JMenu" name="jMenu1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="File"/>
+          </Properties>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="jMenu2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Edit"/>
+          </Properties>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="jMenu3">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Operations"/>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItem1">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="DB Operations"/>
+              </Properties>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+      </SubComponents>
+    </Menu>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="title" type="java.lang.String" value="MyFriend"/>
+    <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+      <Color id="Default Cursor"/>
+    </Property>
+    <Property name="resizable" type="boolean" value="false"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="menuBar" type="java.lang.String" value="jMenuBar1"/>
+    <SyntheticProperty name="formSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,2,10,0,0,3,0"/>
+    <SyntheticProperty name="formSizePolicy" type="int" value="0"/>
+    <SyntheticProperty name="generateSize" type="boolean" value="true"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="true"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jTabbedPane1" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jTabbedPane1" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JTabbedPane" name="jTabbedPane1">
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="jPanel2">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Daily Operations">
+                <Property name="tabTitle" type="java.lang.String" value="Daily Operations"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="jScrollPane3" pref="727" max="32767" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="jLabel3" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel2" alignment="1" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="jButton3" max="32767" attributes="0"/>
+                                  <Component id="customercombo" max="32767" attributes="0"/>
+                                  <Component id="sidcombo" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="jButton2" alignment="0" pref="183" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="jScrollPane4" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="customercombo" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="sidcombo" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="jButton2" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="jButton3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="jScrollPane4" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="jScrollPane3" pref="291" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JButton" name="jButton2">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="OS Connect"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton2ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="customercombo">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="0"/>
+                </Property>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel2">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Customer"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel3">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="System SID"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="sidcombo">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="0"/>
+                </Property>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JButton" name="jButton3">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="StartGui"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton3ActionPerformed"/>
+              </Events>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane3">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTable" name="jTable1">
+                  <Properties>
+                    <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                      <Table columnCount="4" rowCount="4">
+                        <Column editable="true" title="Title 1" type="java.lang.Object"/>
+                        <Column editable="true" title="Title 2" type="java.lang.Object"/>
+                        <Column editable="true" title="Title 3" type="java.lang.Object"/>
+                        <Column editable="true" title="Title 4" type="java.lang.Object"/>
+                      </Table>
+                    </Property>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane4">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="jTextArea1">
+                  <Properties>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="rows" type="int" value="5"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel1">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="DB2 Operation">
+                <Property name="tabTitle" type="java.lang.String" value="DB2 Operation"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jScrollPane1" min="-2" pref="179" max="-2" attributes="0"/>
+                          <Component id="jButton1" alignment="0" min="-2" pref="179" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jScrollPane2" pref="542" max="32767" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="jScrollPane2" pref="0" max="32767" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <Component id="jScrollPane1" pref="378" max="32767" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JButton" name="jButton1">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="jButton1"/>
+              </Properties>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JList" name="jList1">
+                  <Properties>
+                    <Property name="model" type="javax.swing.ListModel" editor="org.netbeans.modules.form.editors2.ListModelEditor">
+                      <StringArray count="5">
+                        <StringItem index="0" value="Item 1"/>
+                        <StringItem index="1" value="Item 2"/>
+                        <StringItem index="2" value="Item 3"/>
+                        <StringItem index="3" value="Item 4"/>
+                        <StringItem index="4" value="Item 5"/>
+                      </StringArray>
+                    </Property>
+                  </Properties>
+                  <AuxValues>
+                    <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+                  </AuxValues>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextPane" name="jTextPane1">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="1960 y&#x131;l&#x131;nda MIT, AT&amp;T Bell Teknoloji Laboratuvarlar&#x131; ve GE(General Electric)&apos;nin birlikte geli&#x15f;tirdikleri MULTICS (Multiplexed Operating and Computing System [&#xc7;o&#x11f;ulland&#x131;r&#x131;lm&#x131;&#x15f; &#x130;&#x15f;letim ve Bilgisayar Sistemi]) projesiyle temelleri at&#x131;lm&#x131;&#x15f;t&#x131;r. MULTICS projesinin hedefi &#xe7;oklu kullan&#x131;c&#x131;n&#x131;n bilgisayar eri&#x15f;imine izin vererek e&#x15f; zamanl&#x131; veri payla&#x15f;&#x131;m&#x131;n&#x131; ger&#xe7;ekle&#x15f;tirebilmekti. Multics, ayn&#x131; zamanda &#xe7;ok yenilik&#xe7;i ve zaman&#x131;na g&#xf6;re &#xe7;ok geli&#x15f;mi&#x15f;ti ama pek &#xe7;ok sorunu vard&#x131;.&#xa;&#xa;1969 y&#x131;l&#x131;nda proje karma&#x15f;&#x131;k bir hal almaya ba&#x15f;lam&#x131;&#x15f; ve AT&amp;T Bell Teknoloji Laboratuvarlar&#x131; projeden &#xe7;ekilmi&#x15f;tir. Bunun nedeni art&#x131;k MULTICS&apos;in ama&#xe7;lar&#x131; d&#x131;&#x15f;ar&#x131;s&#x131;nda b&#xfc;y&#xfc;mesi ve yava&#x15f;lamas&#x131;d&#x131;r. Ancak ayn&#x131; y&#x131;l i&#xe7;inde MULTICS i&#x15f;i daha k&#xfc;&#xe7;&#xfc;k &#xf6;l&#xe7;ekli hale getirmeye ba&#x15f;lam&#x131;&#x15f; ve Bell&apos;de ara&#x15f;t&#x131;rmac&#x131; olarak &#xe7;al&#x131;&#x15f;an Ken Thompson&apos;&#x131;n MULTICS yaz&#x131;l&#x131;m&#x131;n&#x131; sim&#xfc;le eden bir dosya sistemini kodlamas&#x131;yla Unix&apos;in ilk s&#xfc;r&#xfc;m&#xfc; UNICS (Uniplexed Information and Computing System[Birle&#x15f;tirilmi&#x15f; Bilgi ve Bilgisayar Sistemi]) ismiyle &#xe7;&#x131;km&#x131;&#x15f;t&#x131;r. &#x130;lk s&#xfc;r&#xfc;m&#xfc; assembler ile yaz&#x131;lm&#x131;&#x15f; olup, sadece yaz&#x131;ld&#x131;&#x11f;&#x131; t&#xfc;r makinede &#xe7;al&#x131;&#x15f;abilen bir versiyondu.&#xa;&#xa;1973 y&#x131;l&#x131;nda Thompson, C derleyicisinin atas&#x131; Dennis Ritchie ile birlikte &#xe7;ekirde&#x11f;i C ile tekrar kodlayarak Unix&apos;in 5. s&#xfc;r&#xfc;m&#xfc;n&#xfc; olu&#x15f;turdu. B&#xf6;ylece Unix, ta&#x15f;&#x131;nabilir &#xf6;zelli&#x11f;i olan C dili sayesinde, &#xe7;e&#x15f;itli hedef donan&#x131;mlara uygun olarak tekrar derlenebilen kodlardan olu&#x15f;an ta&#x15f;&#x131;nabilir bir i&#x15f;letim sistemine d&#xf6;n&#xfc;&#x15f;m&#xfc;&#x15f; oldu.&#xa;&#xa;1978 y&#x131;l&#x131; Unix i&#xe7;in &#xe7;ok &#xf6;nemli bir y&#x131;l olarak ge&#xe7;ti. Unix &#x130;&#x15f;letim Sistemi 7. s&#xfc;r&#xfc;m&#xfc;yle birlikte geli&#x15f;imini art&#x131;k iki farkl&#x131; &#xe7;izgide ger&#xe7;ekte&#x15f;tirecekti: BSD(Berkeley Software Distribution) ve System V.[kaynak belirtilmeli]&#xa;&#xa;    BSD&#xa;&#xa;Berkeley Universitesinde Thompson ve &#xf6;&#x11f;renci Bill Joy ile Chuck Haley Unix&apos;in Berkeley s&#xfc;r&#xfc;m&#xfc;n&#xfc; kodlad&#x131;. Bu s&#xfc;r&#xfc;m, kaynak kod &#xfc;zerinde &#xe7;al&#x131;&#x15f;an di&#x11f;er &#xf6;&#x11f;rencilere de da&#x11f;&#x131;t&#x131;ld&#x131;. Berkeley &#xf6;&#x11f;rencileri, orijinal Unix kaynak kodunun %90&apos;n&#x131;n&#x131; de&#x11f;i&#x15f;tirdiler. Ara&#x15f;t&#x131;rmac&#x131;lar da vi ve C shell gibi metin d&#xfc;zenleme yaz&#x131;l&#x131;mlar&#x131;n&#x131; ekleyerek sistemi daha da geli&#x15f;tirdiler. Sanal bellek (virtual memory), Sendmail, TCP/IP deste&#x11f;i gibi &#xf6;zellikler BSD s&#xfc;r&#xfc;m&#xfc;nden gelmi&#x15f;tir. Daha sonralar&#x131;&#xa;&#xa;    Linux,&#xa;    NextStep,&#xa;    (NeXT),&#xa;    Sun OS 4.x, ve&#xa;    ULTRIX (DEC)&#xa;&#xa;gibi i&#x15f;letim sistemleri BSD &#xfc;zerinden t&#xfc;remi&#x15f;tir.&#xa;&#xa;    System V&#xa;&#xa;Bell, Unix&apos;in ticari olarak varl&#x131;&#x11f;&#x131;n&#x131; s&#xfc;rd&#xfc;rebilir bir &#xfc;r&#xfc;n olaca&#x11f;&#x131;n&#x131; d&#xfc;&#x15f;&#xfc;nd&#xfc; ve &#xfc;r&#xfc;n&#xfc; lisanslad&#x131;. System V i&#x15f;letim sistemi, konsorsiyum taraf&#x131;ndan ortak bir standartta geli&#x15f;tirildi ve yeni &#xf6;zellikleriyle daha g&#xfc;&#xe7;l&#xfc;, g&#xfc;venilir ve g&#xfc;venli bir sistem oldu. Birka&#xe7; y&#x131;l System V ticari olarak en &#xe7;ok desteklenen &#xfc;r&#xfc;n oldu. T&#xfc;m System V &#xfc;r&#xfc;nleri, Bell&apos;de ger&#xe7;ekle&#x15f;tirilen &#xe7;al&#x131;&#x15f;malar &#xfc;zerine kurulmu&#x15f;tur ve lisans hakk&#x131; Unix System Laboratories&apos;e aittir. Bunlara &#xf6;rnek olarak&#xa;&#xa;    AIX (IBM),&#xa;    Digital Unix (DEC),&#xa;    HP-UX (HP),&#xa;    IRIX (SGI),&#xa;    SCO UNIXware ve&#xa;    Sun OS 5.x/Solaris (SUN)&#xa;&#xa;verilebilir.&#xa;&#xa;G&#xfc;n&#xfc;m&#xfc;zde BSD ve System V&apos;in bir&#xe7;ok komut ve &#xf6;zellikleri birbirine benzemektedir. Unix&apos;in &#xe7;o&#x11f;u s&#xfc;r&#xfc;m&#xfc;nde her iki yakla&#x15f;&#x131;mdan da faydalan&#x131;lm&#x131;&#x15f;t&#x131;r. &#xd6;rnek olarak ps ve printing komutlar&#x131;nda sadece s&#xf6;zdizim farkl&#x131;l&#x131;klar&#x131; vard&#x131;r.&#xa;&#xa;UNIX markas&#x131; AT&amp;T Bell Labs taraf&#x131;ndan Novell&apos;e sat&#x131;lm&#x131;&#x15f;t&#x131;r. 1994&apos;te UNIX tan&#x131;m&#x131; ve markas&#x131; g&#xfc;n&#xfc;m&#xfc;zdeki sahibi The Open Group&apos;a devredilmi&#x15f;tir.&#xa;UNIX Tarihindeki &#xd6;nemli &#x130;simler&#xa;&#xa;    Brian Kernighan&#xa;    Dennis Ritchie&#xa;    Ken Thompson&#xa;    Linus Torvalds&#xa;&#xa;UNIX Standartlar&#x131;&#xa;&#xa;    POSIX Standart&#x131;&#xa;&#xa;POSIX (Portable Operating Standard)sistemin ta&#x15f;&#x131;nabilirli&#x11f;inin &#xf6;l&#xe7;&#xfc;s&#xfc;d&#xfc;r. System V &#xfc;zerinde yaz&#x131;lm&#x131;&#x15f; bir yaz&#x131;l&#x131;m BSD &#xfc;zerinde &#xe7;al&#x131;&#x15f;abiliyorsa ta&#x15f;&#x131;nabilirlik &#xf6;zelli&#x11f;ine sahiptir. IEEE POSIX standartlar&#x131; i&#xe7;in bir dizi standartlar komiteleri olu&#x15f;turdu. POSIX.1 komitesi Unix i&#xe7;in yaz&#x131;l&#x131;m yazmada kullan&#x131;lan C k&#xfc;t&#xfc;phanesi aray&#xfc;z&#xfc;n&#xfc; standartla&#x15f;t&#x131;r&#x131;rken; POSIX.2 komitesi genel kullan&#x131;c&#x131;n&#x131;n eri&#x15f;imine a&#xe7;&#x131;k komutlar&#x131;n standartlar&#x131;n&#x131; belirledi.&#xa;&#xa;    OSF Standart&#x131;&#xa;&#xa;Open Software Foundation taraf&#x131;ndan geli&#x15f;tirilen standart."/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JTabbedPane" name="jTabbedPane2">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="DB2 Restore">
+                <Property name="tabTitle" type="java.lang.String" value="DB2 Restore"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
